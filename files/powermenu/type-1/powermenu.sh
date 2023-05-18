@@ -15,7 +15,7 @@ theme=${1:-'style-1'}
 
 # CMDs
 uptime="`uptime -p | sed -e 's/up //g'`"
-host=`hostname`
+host=`hostnamectl hostname`
 
 # Options
 shutdown=' Shutdown'
